@@ -1,5 +1,8 @@
 Recent Bookmarks for Chrome
-- Shows last 25 recently added bookmarks and their hierarchical location
+- Shows last 25 recently added bookmarks in Google Chrome and their hierarchical location
+
+Screenshot:
+- http://github.com/dimitry/Recent-Bookmarks/blob/master/images/screenshot.png
 
 Todo:
 - Add location information
