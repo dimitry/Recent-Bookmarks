@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+		body {
+			font-family:Helvetica, sans-serif;
+			background:#eee;
+			color:#222;
+			text-shadow:0 1px 0 #fff;
+			margin:0;
+		}
+		
+		a {
+			color:#222;
+		}
+		
+		h1 {
+			font-size:18px;
+			margin:20px;
+		}
+		
+		ul {
+			margin:20px 6px;
+		}
+		
+		ul li {
+			margin:8px 0;
+			font-size:14px;
+		}
+		
+		ul li small {
+			font-size:10px;
+		}
+		
+		p {
+			margin:20px;
+			font-size:14px;
+			font-weight:bold;
+		}
+	</style>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.timeago.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bookmarks.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<h1>Recent Bookmarks</h1>
+	<p id="loading">Loading...</p>
+	<script type="text/javascript" charset="utf-8">
+		RecentBookmarks.init();
+	</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Recent Bookmarks for Chrome
+- Shows last 25 recently added bookmarks and their hierarchical location
+
+Todo:
+- Add location information
+
+To install:
+- Clone/download the code
+- In Chrome -> Window -> Extensions
+- Expand the 'Developer mode' option
+- Click 'Load unpacked extension...'
+- Select the folder and the icon should appear in the toolbar
