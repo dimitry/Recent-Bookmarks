@@ -6,9 +6,14 @@ window.RecentBookmarks = function() {
 		},
 		
 		parseRecent : function(recentBookmarks) {
+			var l = recentBookmarks.length;
+			if (l === 0) {
+				$('#loading').text('There are no bookmarks.');
+				return;
+			}
 			$('#loading').remove();
 			var ul = $('<ul></ul>').appendTo($('body')), date, html;
-			for (var i=0, l=recentBookmarks.length; i<l; i++) {
+			for (var i=0; i<l; i++) {
 				date = new Date(recentBookmarks[i].dateAdded);
 				html = '<a href="' + recentBookmarks[i].url + '">' + recentBookmarks[i].title + '</a><br>';
 				html += '<small class="date" title="' + date.toISOString() + '">' + jQuery.timeago(date) + '</small><br>';
